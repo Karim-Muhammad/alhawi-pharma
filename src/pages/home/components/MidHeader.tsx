@@ -13,13 +13,14 @@ export default function MidHeader() {
 
   return (
     <header>
-      <div className="container mx-auto py-4 flex justify-between">
-        <div className="lg:basis-1/12">
-          <h2>Al-Hawi</h2>
+      <div className="container mx-auto py-4 flex justify-between items-center">
+        <div className="lg:basis-2/12 flex items-center">
+          <img src="/assets/alhawi.png" alt="logo-name" className="w-20" />
+          <span className="font-cairo font-bold"> صيدليات</span>
         </div>
 
         {/* Large Screen */}
-        <div className="hidden lg:flex website-header basis-11 grow flex-col">
+        <div className="hidden lg:flex website-header basis-11/12 grow flex-col">
           <div className="top flex">
             {/* Search */}
             <div className="hidden lg:block lg:basis-8/12">

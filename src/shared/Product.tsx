@@ -16,13 +16,13 @@ export default function Product() {
         {/* </ProductScale> */}
 
         <div className="image-actions flex flex-col absolute top-1 right-1">
-          <div className="p-2 bg-gray-100 rounded-full">
+          <div className="p-2 bg-gray-100 hover:bg-primary hover:text-white rounded-full">
             <Heart className="w-4 h-4" />
           </div>
-          <div className="p-2 bg-gray-100 rounded-full translate-x-[100%] group-hover:translate-x-0 transition-all">
+          <div className="p-2 bg-gray-100 hover:bg-primary hover:text-white rounded-full translate-x-[100%] group-hover:translate-x-0 transition-all">
             <Share className="w-4 h-4" />
           </div>
-          <div className="p-2 bg-gray-100 rounded-full translate-x-[100%] group-hover:translate-x-0 transition-all">
+          <div className="p-2 bg-gray-100 hover:bg-primary hover:text-white rounded-full translate-x-[100%] group-hover:translate-x-0 transition-all">
             <Eye className="w-4 h-4" />
           </div>
         </div>
