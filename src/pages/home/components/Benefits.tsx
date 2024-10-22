@@ -9,7 +9,7 @@ import MiniCard from "./MiniCard";
 
 export default function Benefits() {
   return (
-    <div className="hidden md:flex flex-wrap container mx-auto justify-between my-3">
+    <div className="hidden md:flex flex-wrap container mx-auto my-3">
       <MiniCard
         title="Medicine"
         description="Over 25000 products"

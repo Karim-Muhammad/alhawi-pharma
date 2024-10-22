@@ -9,6 +9,7 @@ export default function Stats() {
             icon="/assets/home.svg"
             title="100 Lakh+"
             description="Families Saved"
+            className="mx-auto text-center"
           />
         </div>
         <div className="min-w-[calc(90%/4)] grow">
@@ -16,6 +17,7 @@ export default function Stats() {
             icon="/assets/ambulance.svg"
             title="1.5 Crore+"
             description="Orders Delivered"
+            className="mx-auto text-center"
           />
         </div>
         <div className="min-w-[calc(90%/4)] grow">
@@ -23,6 +25,7 @@ export default function Stats() {
             icon="/assets/map.svg"
             title="22000 +"
             description="Pincodes Served"
+            className="mx-auto text-center"
           />
         </div>
         <div className="min-w-[calc(90%/4)] grow">
@@ -30,6 +33,7 @@ export default function Stats() {
             icon="/assets/medicine.svg"
             title="10 Lakl +"
             description="Medicines Available"
+            className="mx-auto text-center"
           />
         </div>
       </div>

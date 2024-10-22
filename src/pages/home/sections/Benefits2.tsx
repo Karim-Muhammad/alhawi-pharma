@@ -9,7 +9,7 @@ import MiniCard from "../components/MiniCard";
 
 export default function Benefits2() {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap container mx-auto justify-between">
+    <div className="flex flex-col md:flex-row flex-wrap container mx-auto">
       <MiniCard
         title="Free Shipping"
         description="For all orders over $100"

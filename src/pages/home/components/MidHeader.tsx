@@ -2,8 +2,15 @@ import { Heart, MenuIcon, Search } from "lucide-react";
 import SideDrawer from "./SideDrawer";
 import ShoppingCart from "./ShoppingCart";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function MidHeader() {
+  const [open, setOpen] = useState(false);
+
+  const toggleSideDrawer = () => {
+    setOpen((prev) => !prev);
+  };
+
   return (
     <header>
       <div className="container mx-auto py-4 flex justify-between">
@@ -84,11 +91,15 @@ export default function MidHeader() {
         {/* Small Screen */}
         {/* Hamburger Menu for small screen */}
         <div className="icon lg:hidden">
-          <MenuIcon className="w-6 h-6 text-gray-800" />
+          <MenuIcon
+            className="w-6 h-6 text-gray-800"
+            onClick={toggleSideDrawer}
+          />
         </div>
       </div>
 
-      <SideDrawer />
+      {/* For small screen */}
+      <SideDrawer open={open} closeHandler={() => setOpen(false)} />
     </header>
   );
 }
