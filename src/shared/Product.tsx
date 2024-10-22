@@ -8,10 +8,10 @@ export default function Product() {
       <div className="image-preview max-h-[250px] group relative p-4 overflow-hidden">
         {/* <ProductScale> */}
         <ProductShuffle first={true}>
-          <img src="/public/assets/product-1.jpg" />
+          <img src="/assets/product-1.jpg" />
         </ProductShuffle>
         <ProductShuffle first={false}>
-          <img src="/public/assets/product-2.jpg" />
+          <img src="/assets/product-2.jpg" />
         </ProductShuffle>
         {/* </ProductScale> */}
 
