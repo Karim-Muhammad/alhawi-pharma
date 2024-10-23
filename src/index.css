@@ -9,6 +9,10 @@
 }
 
 @layer base {
+  bg-primary {
+    background-color: #24aeb1;
+  }
+
   @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
   html {
     font-family: "Cairo", sans-serif;

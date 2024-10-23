@@ -33,26 +33,6 @@ export default function Footer() {
             </div>
           </div>
           {/* ./Phone Card */}
-
-          <div className="info-card basis-full sm:basis-1/2 md:basis-1/3 grow my-5">
-            <p className="text-xl font-bold text-center mb-3">
-              Download the app now!
-            </p>
-
-            <div className="flex flex-col sm:flex-row justify-center gap-3 sm:space-x-3">
-              <img
-                src="/assets/app-store.png"
-                alt="download"
-                className="w-52"
-              />
-
-              <img
-                src="/assets/google-play.png"
-                alt="download"
-                className="w-52"
-              />
-            </div>
-          </div>
         </div>
       </section>
       <section className="ft-2 bg-white flex flex-wrap">

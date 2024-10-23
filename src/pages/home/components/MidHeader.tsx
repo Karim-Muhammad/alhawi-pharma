@@ -13,10 +13,9 @@ export default function MidHeader() {
 
   return (
     <header>
-      <div className="container mx-auto py-4 flex justify-between items-center">
+      <div className="container mx-auto py-4 flex justify-between items-center gap-3">
         <div className="lg:basis-2/12 flex items-center">
-          <img src="/assets/alhawi.png" alt="logo-name" className="w-20" />
-          <span className="font-cairo font-bold"> صيدليات</span>
+          <img src="/assets/alhawi2.png" alt="logo-name" className="w-48" />
         </div>
 
         {/* Large Screen */}

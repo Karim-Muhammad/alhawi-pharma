@@ -1,12 +1,29 @@
 import { ShoppingCart } from "lucide-react";
+import { cn } from "./utils";
 
-export default function CartButton() {
+type CartButtonProps = {
+  full?: boolean;
+};
+
+export default function CartButton({ full = false }: CartButtonProps) {
   return (
-    <div className="flex items-center space-x-1 mt-3">
-      <div className="icon bg-primary p-2 rounded-full">
-        <ShoppingCart className="w-4 h-4 text-white" />
+    <div
+      className={cn([
+        {
+          "flex items-center space-x-2 mt-3 md:m-0": true,
+          "bg-primary text-white px-5 py-3 rounded-full w-fit": full,
+        },
+      ])}
+    >
+      <div
+        className={cn({
+          "icon bg-primary p-2 rounded-full": !full,
+        })}
+      >
+        <ShoppingCart className="w-5 h-5 text-white" />
       </div>
-      <span>Add to cart</span>
+
+      <p className={full ? "uppercase font-medium text-sm" : ""}>Add to cart</p>
     </div>
   );
 }

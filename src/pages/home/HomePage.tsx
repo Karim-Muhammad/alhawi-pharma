@@ -1,6 +1,7 @@
 import Carousel from "../../shared/Carousel";
 import CarouselItem from "../../shared/CarouselItem2";
 import Footer from "../../shared/Footer";
+
 import Stats from "../../shared/Stats";
 import Benefits from "./components/Benefits";
 import QuickBottomMenu from "./components/QuickBottomMenu";
